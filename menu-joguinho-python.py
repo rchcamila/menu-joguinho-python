@@ -111,7 +111,7 @@ def soma_varios():
 # ---------- Menu Principal ----------
 while True:
     limpar_tela()
-    print(f"MENU DE JOGUINHOS - PLAYER: {nome} 🎮")
+    print(f"MENU DE JOGUINHOS - PLAYER: {nome}")
     print("1 - Soma de dois números")
     print("2 - Par ou Ímpar")
     print("3 - Maior de três números")
@@ -143,7 +143,8 @@ while True:
         soma_varios()
     elif opcao == "0":
         limpar_tela()
-        print(f"\nAté logo, {nome}! 👋 Obrigado por jogar!")
+        print(f"\nAté logo, {nome}!Obrigado por jogar!")
         break
     else:
         input("Opção inválida. Pressione Enter para tentar novamente...")
+
